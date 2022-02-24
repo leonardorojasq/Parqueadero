@@ -1,0 +1,127 @@
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: rgba(255,255,255,1.00);
+}
+.menu{
+	width: 100%;
+	height: 50px;
+	background-color: #F1CD12;
+}
+.menu img{
+	position: absolute;
+	height:35px;
+	padding: 5px;	
+}
+nav, ul, li{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: space-between;
+	padding: 0px 20px 10px 0px;
+	}
+nav, ul, li, a{
+text-decoration: none;
+	padding: 4px;
+	color: #000;
+}
+a:hover{
+	color: chocolate
+}
+a img, .coche{
+	position: relative;
+	margin-left: -44px;
+	margin-top: -12px;
+}
+h1, h2 {
+	text-align: center;
+}
+.container {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 10px;
+}
+.entrada{
+	position: relative;
+	width: 12%;
+	display: flex;
+	flex-direction: column
+	
+}
+.registro{
+	width: 180px;
+	height: 40px;
+	margin-top: 10px;
+	border-radius: 10px;
+	background-color: rgba(227,226,19,1.00)
+}
+.registro:hover{
+	background-color: rgba(166,165,14,1.00)
+}
+.tabla {
+	width: 100%;
+	height: auto;
+	text-align: left;
+	margin-top: 10px
+}
+tr{
+	background-color: #4F4D4D;
+	height: 30px;
+	font-size: 14px;
+}
+.font-tr{
+	margin-left: 15px;
+}
+td{	
+	padding: 10px 0px 0px 0px;	
+}
+.datos{
+
+	margin-top: 20px;
+}
+.datos-input{
+	width: 180px;
+	height: 30px;
+	border-radius: 5px;
+	
+}
+.derecha{
+	margin-left: 40px;
+}
+td {
+	background-color: #E3E0E0;
+	height: 30px;
+}
+.entrada, .salida{
+	position: absolute;
+	width: 65px;
+	height: 30px;
+	margin-top: -20px;
+	display: flex;
+	justify-content: center;
+	border-radius: 5px;
+	font-size: 12px;
+	text-align:center;
+}
+.entrada{
+	margin-left: 12px;
+	padding-bottom: 2px;
+	background-color: forestgreen;
+}
+.entrada:hover{
+	background-color: rgba(37,245,61,1.00);
+}
+.salida{
+	margin-left: 80px;
+	background-color: rgba(255,0,71,1.00);
+}.salida:hover{
+	background-color: rgba(243,43,50,1.00);
+}
+.espacio-btn{
+	width: 150px
+
+}

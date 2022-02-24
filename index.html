@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+<meta charset="utf-8" />
+<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sistema de login</title>
+<link rel="stylesheet" href="includes/css/index.css">	
+	
+</head>
+
+<body>
+	<noscript>Usted neecsita habilitar JavaScript para iniciar esta aplicación.</noscript>
+
+	 
+    <form class="formulario" method="get" action="includes/registro.html">  
+		<center><h1> Inicio de Sesión</h1></center>  
+        <div class="container">   
+            <label>Usuario: </label>   
+            <input type="text" placeholder="Entre el usuario" name="username" autofocus required>  
+            <label>Contraseña : </label>   
+            <input type="password" placeholder="Entre la contraseña" name="password" required>  
+            <button type="submit">Login</button>   
+            <input type="checkbox" checked="checked"> Remember me   
+            <button type="button" class="cancelbtn"> Cancel</button>   
+            Forgot <a href="#"> password? </a>   
+        </div>   
+    </form>    
+
+	<script src="includes/js/index.js"></script>
+</body>
+</html>

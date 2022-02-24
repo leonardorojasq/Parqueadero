@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+<meta charset="utf-8" />
+<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Registro</title>
+<link rel="stylesheet" href="css/registro.css">	
+	
+</head>
+
+	<script>
+   
+</script>
+<body>
+ <noscript>Usted neecsita habilitar JavaScript para iniciar esta aplicación.</noscript>
+   <header class="menu">
+	<img src="img/ejemplopng.png" alt="logo">
+	 <nav>
+	  <ul>
+	 	<li><a href="#"><img src="img/coche.png" class="coche" alt="coche">Vehículo</a></li>
+	 	<li><a href="#">Opción 2</a></li>
+	 	<li><a href="#">Opción 3</a></li>
+	 	<li><a href="#">Opción 4</a></li>
+	 	<li><a href="#">Opción 5</a></li>
+	  </ul>
+	 </nav>
+	</header>
+	<h1>Control de Parqueadero</h1>
+	<h2>Tecnología de Software</h2>
+    <div class="container">
+	 <div class="fecha">	
+	  <input type="date" id="FechaActual">
+	 </div><br><hr>
+		<input type="button" id="registro" class="registro" value="Registrar Vehículo">
+		<div class="datos">
+		<input type="text" placeholder="Ingrese La placa" class="datos-input" required>
+		<input type="text" placeholder="Ingrese el tipo de vehículo" class="datos-input derecha" required>
+		</div>
+		<br><hr>
+	 <table class="tabla">
+	  <thead>
+	   <tr scope="row">
+		<th><span class="font-tr">PLACA</span></th>
+		<th><span class="font-tr">ENTRADA</span></th>
+		<th><span class="font-tr">SALIDA</span></th>
+		<th><span class="font-tr">PRECIO</span></th>
+		<th><span class="font-tr">IMPRIMIR TIKECT</span></th>
+	   </tr>
+	  </thead>		  
+	  <tbody class="cuerpo-tabla">
+	   <tr>	
+		<td><span class="font-tr">agt333</span></td>
+		<td><span class="font-tr">24/02/22 9:30pm</span></td>
+		<td><span class="font-tr">24/02/22 12:18pm</span></td>
+		<td><span class="font-tr">$ 18.500</span></td>
+		<td class="espacio-btn">
+			<button class="entrada" >&nbsp; Entrada</button>
+			<button class="salida" >Salida</button>
+		</td>
+	   </tr>
+		  <tr>	
+		<td><span class="font-tr">kml983</span></td>
+		<td><span class="font-tr">24/02/22 11:05pm</span></td>
+		<td><span class="font-tr">24/02/22 12:45pm</span></td>
+		<td><span class="font-tr">$ 8.500</span></td>
+		<td class="espacio-btn">
+			<button class="entrada" >&nbsp; Entrada</button>
+			<button class="salida" >Salida</button>
+		</td>
+	   </tr>	 
+		  <tr>	
+		<td><span class="font-tr">vujn785</span></td>
+		<td><span class="font-tr">24/02/22 12:09pm</span></td>
+		<td><span class="font-tr">24/02/22&nbsp;<span  id="reloj"></span></span></td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;$&nbsp;<span  id="precio"></span></td>
+		<td class="espacio-btn">
+			<button class="entrada" >&nbsp; Entrada</button>
+			<button class="salida" >Salida</button>
+		</td>
+		  </tr> 
+		 	 
+		</tbody>
+	  </table>
+  
+	</div>		
+	
+ <script src="js/registro.js"></script>	
+</body>
+</html>
